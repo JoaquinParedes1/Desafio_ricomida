@@ -1,0 +1,99 @@
+/* Tipografías */
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #373a3c;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: #000;
+}
+
+/* Botones */
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #373a3c;
+    color: #fff;
+}
+/* Estilo general del navbar */
+nav.navbar {
+    background-color: #373a3c; /* Color de fondo oscuro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem; /* Tamaño ajustado para el título */
+    color: #ffffff; /* Color blanco */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Cambia el color del icono a blanco */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /* Tamaño de texto */
+    color: #ffffff;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #211f1f; /* Color de hover rojo */
+    text-decoration: underline;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 991px) {
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.recipientes hr {
+    border: 0;
+    border-top: 3px solid #464444; /* Color de la línea */
+    margin: 20px auto; /* Espaciado */
+    width: 85%; /* Ancho de la línea */
+}
+
+.recipientes h3 {
+    font-size: 1.5rem; /* Tamaño del texto */
+    color: #373a3c; /* Color del título */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.newsletter h2, .newsletter p {
+    margin: 0 auto; /* Centra el contenido */
+    max-width: 800px; /* Ajusta el ancho máximo del texto */
+}
+
+.newsletter .btn {
+    border: 2px solid #ffffff; /* Borde blanco */
+    color: #dc3545;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.newsletter .btn:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+.font-cabin {
+    font-family: 'Cabin', sans-serif;
+}
+.footer {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
